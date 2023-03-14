@@ -1,0 +1,11 @@
+/* HEADER */
+.title{
+  font-family: 'Fredoka One', cursive;
+}
+.header {
+  font-family: 'Golos Text', sans-serif;
+  display: flex;
+  /* background-image: url('./image/header.jpg'); */
+  
+
+}
