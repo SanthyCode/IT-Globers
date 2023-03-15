@@ -1,3 +1,16 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+.App{
+  font-family: 'Golos Text', sans-serif;
+}
+
 a {
   text-decoration: none;
 }

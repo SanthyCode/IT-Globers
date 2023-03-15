@@ -9,17 +9,19 @@ const Form = () => {
     
 
   return (
-    <section>
-        <span>INSTAGRAM</span>
-        <h2>#ESPUFI</h2>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+    <section className='form'>
+        <span className='title1'>INSTAGRAM</span>
+        <h2 className='subtitle'>#ESPUFI</h2>
+      <div className='instagram'>
+        <img src="./src/image/cart.jpg" alt=""  className='img_ig'/>
+        <img src="./src/image/header.jpg" alt="" className='img_ig'/>
+        <img src="./src/image/nap.jpg" alt="" className='img_ig'/>
+        <img src="./src/image/paraguas.jpg" alt="" className='img_ig'/>
+        <img src="./src/image/puff.jpg" alt="" className='img_ig'/>
+        <img src="./src/image/theother.jpg" alt="" className='img_ig'/>
       </div>
-      <span>NEWSLETTER</span>
-      <h2>SUSCRIBETE</h2>
+      <span className='title1'>NEWSLETTER</span>
+      <h2 className='subtitle'>SUSCRIBETE</h2>
       <p>Y enterate de todas las novedades</p>
       <div>
       <form onSubmit={handleSubmit}>
@@ -37,7 +39,7 @@ const Form = () => {
         errors={state.errors}
       />
 
-      <button type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting} className= 'btn_form'>
       &gt;
       </button>
     </form>
